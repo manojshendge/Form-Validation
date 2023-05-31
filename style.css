@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+}
+h1{
+    color: rgb(170, 166, 166);
+}
+.form-outer-container{
+    margin: 0%;
+    background-image: url(https://img.freepik.com/free-vector/technological-background-with-circuit-lines-diagram-blue-color_1017-26290.jpg?w=360);
+    background-size: cover;
+    padding: 3%;
+    border: none;
+    display: flex;
+     justify-content: center;
+     padding-bottom: 100px;
+}
+.formdesign{
+    color: rgb(177, 173, 173);
+    margin: 8%;
+}
+.comment{
+    height: 100px;
+    border: 1px solid;
+    resize: both;
+    overflow: auto;
+}
+.but{
+    margin-bottom: 5%;
+}
+.form-inner-design{
+
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color:black;
+}
+.comment{
+    padding: 5px;
+    font-size: 20px;
+}

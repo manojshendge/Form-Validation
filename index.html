@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-outer-container">
+        <form action="man.php" onsubmit="return validateform()">
+            <h1>Registration Form</h1>
+            <div class="formdesign" >
+                Email:<br><input type="text" id="fname" class="form-inner-design"><br><span class="error" id="name-error" style="color: red;"></span>
+            </div>
+            <div class="formdesign" >
+                Password:<br><input type="text" id="password" class="form-inner-design"><br><span class="error" id="pass-error" style="color: red;"></span>
+            </div> 
+            <div class="formdesign" >
+                Confirm password:<br><input type="text" id="confirm-pass" class="form-inner-design"><br><span class="error" id="confirm-pass-error" style="color: red;"></span>
+            </div> 
+            <div class="formdesign" >
+                Username:<br><input type="text" id="Username" class="form-inner-design"><br><span class="error" id="user-error" style="color: red;"></span>
+            </div> 
+            <div class="formdesign" >
+                Comment:<br><div class="comment" id="comm" contenteditable="true"></div><br><span class="error" id="comment-error" style="color: red;"></span>
+            </div> 
+            <button class="but">Submit</button><br>
+            <button type="reset">reset</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
